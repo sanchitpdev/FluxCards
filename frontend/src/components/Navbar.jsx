@@ -59,7 +59,7 @@ export default function Navbar() {
             color: 'var(--navy)', textDecoration: 'none',
             marginRight: 24, flexShrink: 0,
           }}>
-            CUEMATH
+            FluxCards
           </Link>
 
           {/* Desktop links */}

@@ -44,7 +44,7 @@ export default function Register() {
             <span style={{
               fontFamily: 'var(--font-display)', fontWeight: 900,
               fontSize: '1.4rem', letterSpacing: '0.04em', color: 'white',
-            }}>CM</span>
+            }}>FC</span>
             </div>
             <h1 style={{ fontSize: '2.2rem', marginBottom: 8 }}>Start learning</h1>
             <p style={{ color: 'var(--text-sub)', fontSize: '1.1rem', fontWeight:600 }}>Create your free account</p>
