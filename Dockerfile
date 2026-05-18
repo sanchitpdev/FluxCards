@@ -23,4 +23,4 @@ COPY --from=build /app/target/flashcard-engine-0.0.1-SNAPSHOT.jar app.jar
 # Railway / Render inject PORT automatically
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-XX:+UseContainerSupport", "-XX:MaxRAMPercentage=75.0", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-XX:+UseContainerSupport", "-XX:MaxRAMPercentage=60.0", "-jar", "app.jar"]
